@@ -5,7 +5,7 @@
 Прирост выручки, полученной в этот день, относительно значения выручки за предыдущий день.
 Колонки с показателями назовите соответственно revenue, total_revenue, revenue_change. Колонку с датами назовите date.*/
 
-SELECT *,
+SELECT date, revenue, total_revenue,
 ROUND((revenue-lag(revenue) OVER(ORDER BY date))::DECIMAL/LAG(revenue) OVER(ORDER BY date)*100,2) AS revenue_change
 FROM
 (SELECT date, revenue,
