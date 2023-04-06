@@ -1,4 +1,4 @@
-<h1 align="center">Решение задач на SQL
+<h1 align="center">Решение задач на SQL</h1>
 
 <h3 align="center">Схема базы данных</h3>
 
@@ -23,3 +23,6 @@ couriers — информация о курьерах.
 
 products — информация о товарах, которые доставляет сервис.
 ![prod](https://github.com/-)
+
+  
+<img src="https://github.com/thepokerr/pictures/blob/main/1.jpg" height="500"/>
