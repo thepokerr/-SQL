@@ -1,9 +1,10 @@
-# Решение задач на SQL
+<h1 align="center">Решение задач на SQL
 
-Схема базы данных
-![scheme](https://github.com/-)
+<h3 align="center">Схема базы данных</h3>
 
-Структура и наполнение таблиц
+![scheme](https://github.com/thepokerr/pictures/blob/main/1.jpg)
+
+<h3 align="center">Структура и наполнение таблиц</h3>
 
 user_actions — действия пользователей с заказами. 
 ![ua](https://github.com/thepokerr/-)
