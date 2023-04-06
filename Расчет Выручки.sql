@@ -16,5 +16,5 @@ FROM
 LEFT JOIN products 
 ON prod_ids = product_id
 WHERE order_id NOT IN (SELECT order_id FROM user_actions WHERE action = 'cancel_order') 
-GROUP BY date) AS t3) AS t4
+GROUP BY date) AS t2) AS t3
 ORDER BY date
