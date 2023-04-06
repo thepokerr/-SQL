@@ -5,16 +5,16 @@
 Прирост выручки, полученной в этот день, относительно значения выручки за предыдущий день.
 Колонки с показателями назовите соответственно revenue, total_revenue, revenue_change. Колонку с датами назовите date.*/
 
-select *,
-round((revenue-lag(revenue) over(order by date))::decimal/lag(revenue) over(order by date)*100,2) as revenue_change
-from
-(select date, revenue,
-sum(revenue) over(order by date) as total_revenue
-from
-(select date, sum(price) as revenue from
-(select creation_time::date as date, order_id, unnest(product_ids) as prod_ids from orders) as t1
-left join products 
-on prod_ids = product_id
-where order_id not in (select order_id from user_actions where action = 'cancel_order') 
-group by date) as t3) t4
-order by date
+SELECT *,
+ROUND((revenue-lag(revenue) OVER(ORDER BY date))::DECIMAL/LAG(revenue) OVER(ORDER BY date)*100,2) AS revenue_change
+FROM
+(SELECT date, revenue,
+SUM(revenue) OVER(ORDER BY date) AS total_revenue
+FROM
+(SELECT date, SUM(price) AS revenue FROM
+(SELECT creation_time::DATE AS date, order_id, UNNEST(product_ids) AS prod_ids FROM orders) AS t1
+LEFT JOIN products 
+ON prod_ids = product_id
+WHERE order_id NOT IN (SELECT order_id FROM user_actions WHERE action = 'cancel_order') 
+GROUP BY date) AS t3) AS t4
+ORDER BY date
