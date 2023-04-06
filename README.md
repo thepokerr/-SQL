@@ -2,7 +2,7 @@
 
 <h3 align="center">Схема базы данных</h3>
 
-<img src="https://github.com/thepokerr/pictures/blob/main/1.jpg" height="500"/>
+<img src="https://raw.githubusercontent.com/thepokerr/pictures/main/1.jpg" height="500"/>
 
 <h3 align="center">Структура и наполнение таблиц</h3>
 
