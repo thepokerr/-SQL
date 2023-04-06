@@ -2,27 +2,28 @@
 
 <h3 align="center">Схема базы данных</h3>
 
-![scheme](https://github.com/thepokerr/pictures/blob/main/1.jpg)
+<img src="https://github.com/thepokerr/pictures/blob/main/1.jpg" height="500"/>
 
 <h3 align="center">Структура и наполнение таблиц</h3>
 
-user_actions — действия пользователей с заказами. 
-![ua](https://github.com/thepokerr/-)
+<h4 >user_actions — действия пользователей с заказами. </h4>
+<img src="https://github.com/thepokerr/pictures/blob/main/юзеракт.png" height="240"/>
 
-courier_actions — действия курьеров с заказами.
-![сa](https://github.com/-)
+<h4 >courier_actions — действия курьеров с заказами.</h4>
+<img src="https://github.com/thepokerr/pictures/blob/main/са.png" height="240"/>
 
-orders — информация о заказах.
-![ord](https://github.com/-)
+<h4 >orders — информация о заказах.</h4>
+<img src="https://github.com/thepokerr/pictures/blob/main/ордерс.png" height="180"/>
 
-users — информация о пользователях.
-![users](https://github.com/-)
+<h4 >users — информация о пользователях.</h4>
+<img src="https://github.com/thepokerr/pictures/blob/main/юзерс.png" height="180"/>
 
-couriers — информация о курьерах.
-![cour](https://github.com/-)
+<h4 >couriers — информация о курьерах.</h4>
+<img src="https://github.com/thepokerr/pictures/blob/main/коурс.png" height="180"/>
 
-products — информация о товарах, которые доставляет сервис.
-![prod](https://github.com/-)
+<h4 >products — информация о товарах, которые доставляет сервис.</h4>
+<img src="https://github.com/thepokerr/pictures/blob/main/прод.png" height="180"/>
 
   
-<img src="https://github.com/thepokerr/pictures/blob/main/1.jpg" height="500"/>
+
+
