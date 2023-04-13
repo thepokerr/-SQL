@@ -20,5 +20,3 @@ GROUP BY date) AS t2) AS t3
 ORDER BY date
 
 
-<h3 align="center">Результат</h3>
-<img src="https://github.com/thepokerr/111/blob/main/revenue_table.png" height="220"/>
