@@ -18,3 +18,7 @@ ON prod_ids = product_id
 WHERE order_id NOT IN (SELECT order_id FROM user_actions WHERE action = 'cancel_order') 
 GROUP BY date) AS t2) AS t3
 ORDER BY date
+
+
+<h3 align="center">Результат</h3>
+<img src="https://github.com/thepokerr/111/blob/main/revenue_table.png" height="220"/>
